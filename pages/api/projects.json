@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Lazy Farms",
-    "image": "https://imgur.com/kbGs6zH.png",
+    "image": "/lazy.png",
     "description": "A staking farm on Hashgraph Network",
     "tags": [
       "next",
@@ -18,7 +18,7 @@
   {
     "id": 2,
     "name": "Metabond",
-    "image": "https://imgur.com/tAZotn3.png",
+    "image": "/metabond.png",
     "description": "NFT Collection with referral system and land ownership",
     "tags": [
       "next",
@@ -34,7 +34,7 @@
   {
     "id": 3,
     "name": "Holder Lounge",
-    "image": "https://imgur.com/8FFqaX8.png",
+    "image": "/holder.png",
     "description": "An offchain staking platform and marketplace for NFTs",
     "tags": [
       "next",

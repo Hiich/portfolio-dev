@@ -70,9 +70,9 @@ export async function getStaticProps() {
   );
   console.log("🚀 ~ file: github.jsx:71 ~ getStaticProps ~ repoRes", repoRes)
   let repos = await repoRes.json();
-  repos = repos
-    .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .slice(0, 6);
+  repos = Array.isArray(repos) ?
+    repos.sort((a, b) => b.stargazers_count - a.stargazers_count)
+      .slice(0, 6) : [];
 
   return {
     props: { title: 'GitHub', repos, user },

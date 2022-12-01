@@ -23,24 +23,24 @@
   background: rgba(131, 205, 41, 0.25);
 }
 
-.mongodb {
+.prisma {
   border: 0.1rem solid rgb(67, 153, 52);
 }
-.mongodb:hover {
+.prisma:hover {
   background: rgba(67, 153, 52, 0.25);
 }
 
-.redux {
+.solidity {
   border: 0.1rem solid rgb(118, 74, 188);
 }
-.redux:hover {
+.solidity:hover {
   background: rgba(118, 74, 188, 0.25);
 }
 
-.razorpay {
+.railway {
   border: 0.1rem solid rgb(82, 143, 240);
 }
-.razorpay:hover {
+.railway:hover {
   background: rgba(82, 143, 240, 0.25);
 }
 
@@ -79,9 +79,9 @@
   background: rgba(255, 65, 84, 0.25);
 }
 
-.css-modules {
+.hardhat {
   border: 2px solid rgb(21, 114, 182);
 }
-.css-modules:hover {
+.hardhat:hover {
   background: rgba(21, 114, 182, 0.25);
 }
